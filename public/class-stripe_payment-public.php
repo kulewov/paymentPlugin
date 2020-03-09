@@ -58,7 +58,6 @@ class Stripe_payment_Public {
 			 add_shortcode( 'payment_success', array($this,'succes') );
 	 }
 
-//подключение формы
 public function form() {
 			 require 'form.php';
 	 }
