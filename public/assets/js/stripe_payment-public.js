@@ -20,7 +20,7 @@
         let $form = $('#stripe_payment_form');
         if (response.error) {
             $form.find('.payment-errors').text(response.error.message);
-            $form.find('.submit').prop('disabled', false); // Разрешим submit
+            $form.find('.submit').prop('disabled', false);
         } else {
             let token = response.id;
             /**Ajax query for add new payer*/
@@ -39,7 +39,6 @@
                     system: 'stripe'
                 },
                 success: (e) => {
-                    //alert(e);
                     window.location.replace(e);
                 },
                 error: (e) => {
@@ -86,7 +85,6 @@
                         system: 'paypal'
                     },
                     success: (r) => {
-                        //alert(r); //$('#submit-ajax').html(response);
                         window.location.replace(r);
                     },
                     error: (r) => {

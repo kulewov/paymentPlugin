@@ -1,0 +1,114 @@
+body {
+  &.modal_on {
+    overflow: hidden;
+  }
+  #modal_container {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    display: none;
+  }
+  .payment-errors {
+    color: red;
+  }
+  #stripe_svg {
+    width: 4em;
+    height: auto;
+    fill: #6f70ca;
+  }
+  #paypal_svg {
+    width: 5em;
+    height: auto;
+  }
+  #buy_button {
+    background: linear-gradient(to top right, #0841de, #09ffdd);
+    border-radius: 20px;
+  }
+  #form_container {
+    background: linear-gradient(to top right, #0006ff, #fff);
+    padding: 20px;
+    z-index: 1024;
+    border-radius: 20px;
+    box-shadow: -20px 20px 18px 2px #080707;
+    text-align: center;
+    min-width: 300px;
+    max-width: 450px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+    #stripe_payment_form {
+
+      #CVC, #expMonth,
+      #expYear {
+        height: 30%;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      #CVC {
+        width: 30%;
+        float: right;
+      }
+      #expMonth, #expYear {
+        width: 10%;
+        float: left;
+      }
+      #expYear {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+      #expMonth {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+    #paypal_payment_form {
+      #PaypalPhone,
+      #PaypalPhone, #PaypalCurrency,
+      #PaypalEmail, #PaypalSum {
+        height: 30%;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      #PaypalPhone {
+        width: 50%;
+      }
+      #PaypalCurrency {
+        width: 49%;
+        background-color: white;
+        font-weight: 400;
+        * {
+          background: #089edd;
+          font-weight: 600;
+        }
+      }
+      #PaypalSum {
+        display: block;
+        width: 35%;
+      }
+    }
+    #stripe_payment_form, #paypal_payment_form {
+
+      .payment_but {
+        background: linear-gradient(45deg, #04f717, #028c8c);
+        margin-top: 20px;
+        box-shadow: inset 0 0 20px 2px #080707;
+      }
+      * {
+        border-radius: 15px;
+        text-align: center;
+        border: unset;
+
+      }
+    }
+  }
+}

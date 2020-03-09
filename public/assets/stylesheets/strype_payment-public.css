@@ -1,0 +1,121 @@
+/* line 2, ../sass/strype_payment-public.scss */
+body.modal_on {
+  overflow: hidden;
+}
+/* line 5, ../sass/strype_payment-public.scss */
+body #modal_container {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  display: none;
+}
+/* line 16, ../sass/strype_payment-public.scss */
+body .payment-errors {
+  color: red;
+}
+/* line 19, ../sass/strype_payment-public.scss */
+body #stripe_svg {
+  width: 4em;
+  height: auto;
+  fill: #6f70ca;
+}
+/* line 24, ../sass/strype_payment-public.scss */
+body #paypal_svg {
+  width: 5em;
+  height: auto;
+}
+/* line 28, ../sass/strype_payment-public.scss */
+body #buy_button {
+  background: linear-gradient(to top right, #0841de, #09ffdd);
+  border-radius: 20px;
+}
+/* line 32, ../sass/strype_payment-public.scss */
+body #form_container {
+  background: linear-gradient(to top right, #0006ff, #fff);
+  padding: 20px;
+  z-index: 1024;
+  border-radius: 20px;
+  box-shadow: -20px 20px 18px 2px #080707;
+  text-align: center;
+  min-width: 300px;
+  max-width: 450px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+/* line 49, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form #CVC, body #form_container #stripe_payment_form #expMonth,
+body #form_container #stripe_payment_form #expYear {
+  height: 30%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 56, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form #CVC {
+  width: 30%;
+  float: right;
+}
+/* line 60, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form #expMonth, body #form_container #stripe_payment_form #expYear {
+  width: 10%;
+  float: left;
+}
+/* line 64, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form #expYear {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* line 68, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form #expMonth {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 74, ../sass/strype_payment-public.scss */
+body #form_container #paypal_payment_form #PaypalPhone,
+body #form_container #paypal_payment_form #PaypalPhone, body #form_container #paypal_payment_form #PaypalCurrency,
+body #form_container #paypal_payment_form #PaypalEmail, body #form_container #paypal_payment_form #PaypalSum {
+  height: 30%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* line 82, ../sass/strype_payment-public.scss */
+body #form_container #paypal_payment_form #PaypalPhone {
+  width: 50%;
+}
+/* line 85, ../sass/strype_payment-public.scss */
+body #form_container #paypal_payment_form #PaypalCurrency {
+  width: 49%;
+  background-color: white;
+  font-weight: 400;
+}
+/* line 89, ../sass/strype_payment-public.scss */
+body #form_container #paypal_payment_form #PaypalCurrency * {
+  background: #089edd;
+  font-weight: 600;
+}
+/* line 94, ../sass/strype_payment-public.scss */
+body #form_container #paypal_payment_form #PaypalSum {
+  display: block;
+  width: 35%;
+}
+/* line 101, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form .payment_but, body #form_container #paypal_payment_form .payment_but {
+  background: linear-gradient(45deg, #04f717, #028c8c);
+  margin-top: 20px;
+  box-shadow: inset 0 0 20px 2px #080707;
+}
+/* line 106, ../sass/strype_payment-public.scss */
+body #form_container #stripe_payment_form *, body #form_container #paypal_payment_form * {
+  border-radius: 15px;
+  text-align: center;
+  border: unset;
+}

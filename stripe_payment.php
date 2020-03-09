@@ -14,11 +14,8 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Multiply Payment
- * Plugin URI:        hardevs.io
  * Description:       To start using payment form type this on your page <code>[payment_forms]<code/>
  * Version:           1.0.0
- * Author:            hardevs.io
- * Author URI:        hardevs.io
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       stripe_payment
@@ -78,8 +75,8 @@ function deactivate_stripe_payment()
     delete_option('option_Stripe');
     delete_option('option_paypal_id');
     delete_option('option_paypal_secret_code');
-    //delete_option( 'option_publish_key' );
-    //delete_option( 'option_secret_key' );
+    delete_option( 'option_publish_key' );
+    delete_option( 'option_secret_key' );
     require_once plugin_dir_path(__FILE__) . 'includes/class-stripe_payment-deactivator.php';
     Stripe_payment_Deactivator::deactivate();
 }

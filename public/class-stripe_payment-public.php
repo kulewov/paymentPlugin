@@ -74,7 +74,7 @@ public function form() {
 	 */
 	public function enqueue_styles() {
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/stripe_payment-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'assets/stylesheets/stripe_payment-public.css', array(), $this->version, 'all' );
 
 	}
 
@@ -85,7 +85,7 @@ public function form() {
 	 */
 	public function enqueue_scripts() {
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/stripe_payment-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'assets/js/stripe_payment-public.js', array( 'jquery' ), $this->version, false );
 		wp_localize_script( $this->plugin_name, 'myajax',
 			array(
 				'url' => admin_url('admin-ajax.php'),
