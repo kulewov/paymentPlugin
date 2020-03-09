@@ -18,7 +18,7 @@ $execution->setPayerId($_GET['PayerID']);
 
 try {
     // Take the payment
-    $payment->execute($execution, $apiContext);//вытаскиваем платеж
+    $payment->execute($execution, $apiContext);
 
     try {
 
@@ -50,6 +50,3 @@ try {
     // Failed to take payment
 
 }
-
-
-
