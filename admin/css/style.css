@@ -1,0 +1,1236 @@
+body{
+	font-family: Source Sans Pro;
+	overflow-x:hidden;
+	
+}
+p, a, h1, h2, h3, h4, h5
+{
+	font-style: normal;
+}
+
+input#name:before {
+	content: "имя";
+}
+div.logo-title{
+	
+	padding: 0;
+}
+div.logo{
+	padding-top: 20px;
+}
+h2.logo-title{
+	font-weight: bold;
+	
+	color:#000000;
+	font-size: 40px;
+	line-height: 50px;
+	padding-top: 20px;
+}
+
+.logo{
+	display: flex;
+}
+
+button.about-us{
+	width: 255px;
+	height: 63px;
+	background: linear-gradient(213.13deg, #F2B42A 0%, #CF4A11 100%);
+	box-shadow: 0px 10px 20px rgba(242, 180, 42, 0.5);
+	border-radius: 5px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: #FFFFFF;
+	border: none;
+}
+button.about-us:hover{
+	transition: 0.5s;
+	opacity: 0.5;
+}
+.discount{
+	color:#FF4500;
+	font-weight: bold;
+}
+
+h3.forex{
+	
+	color:#000000;
+	font-size: 47px;
+	line-height: 58px;
+	padding-top: 20px;
+}
+
+p.finance{
+	
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color:#555555;
+}
+p.discount-servise{
+	
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	padding-bottom: 700px;
+}
+.home{
+	background: url("../image/main-background.png") no-repeat center;
+	background-size: cover;
+	
+}
+
+.home-content {
+	position: relative;
+	top: 150px;
+}
+
+.wave{
+	background: url("../image/white-wave.png") no-repeat center;
+	background-size: cover;
+}
+p.Algotrading-title{
+	
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #000000;
+	margin-top: -70px;
+}
+a.view-video{
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: #CF4A11;
+	border-radius: 5px;
+}
+a.view-video:hover{
+	color: #CF4A11;
+}
+.view{
+	margin-left: 30px;
+	margin-top: -47px;
+}
+p.description{
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #555555;
+}
+.colums{
+	display: flex;
+}
+
+p.col-title {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+	margin-top: 10px;
+}
+
+p.col-content{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #555555;
+}
+.advantages
+{
+	background: url("../image/background-2.png") no-repeat center;
+	background-size: 100% 100%;
+	
+}
+p.advantages-of-trade-title{
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 58px;
+	color: #FFFFFF;
+	padding-top: 220px;
+}
+p.trade-desc{
+	
+	
+	font-size: 18px;
+	line-height: 23px;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	
+
+}
+p.trade-text {
+	color: white;
+	padding-bottom: 200px;
+}
+div.viwe {
+	height:340px;
+}
+.wave-particle {
+	position: relative;
+	top: 158px;
+	left: 175px;
+}
+.content {
+	padding-bottom: 150px;
+}
+
+button.connect{
+	width: 247px;
+	height: 63px;
+	background: linear-gradient(213.97deg, #F2B42A 0%, #CF4A11 100%);
+	box-shadow: 0px 6px 15px rgba(242, 180, 42, 0.2);
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	outline: none;
+}
+button.connect:hover{
+	transition: 0.5s;
+	opacity: 0.5;
+}
+.learn
+{
+	
+	background: linear-gradient(180deg, rgba(207, 74, 17, 0) 0%, rgba(207, 74, 17, 0.1) 88.26%);
+	background-size: cover;
+}
+.learn-content {
+	margin-top: -100px;
+	padding-bottom: 300px;
+	padding-top: 200px;
+}
+.bg-top {
+	background: url("../image/bg-top.svg") no-repeat center;
+	background-size: cover;
+	margin-top: -200px;
+	height: auto;
+	width: 1920px;
+
+}
+
+.bg-top .bg-top-tools  img{
+	width: 1920px;
+	
+}
+.bg-top {
+	background: url("../image/bg-top.svg") no-repeat center;
+	background-size: cover;
+}
+
+
+
+p.learn-title {
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #CF4A11;
+	margin-top: 40px;
+}
+p.learn-desc {
+	padding-bottom: 20px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #555555;
+}
+p.learn-name {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	color: #000000;
+}
+a.learn-link {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+	color: rgba(207, 74, 17, 0.8);
+	border-radius: 5px;
+	
+}
+a.learn-link:hover {
+	color: rgba(207, 74, 17, 0.8);
+}
+span.learn-pro {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	border-radius: 5px;
+	color: #CF4A11;
+}
+
+
+
+h1.partners-title {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #000000;
+	
+
+}
+.partners-span {
+
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color:#4482CC;
+}
+
+p.partners-name{
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	color: #000000;
+}
+
+p.partners-description{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+}
+
+a.lisence {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #888888;
+}
+div.partners-image {
+	background: #FFFFFF;
+	border: 3px solid rgba(231, 24, 8, 0.2);
+	box-sizing: border-box;
+	border-radius: 10px;
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.bg-bottom-tools{
+	position: relative;
+	z-index: 1;
+}
+#money {
+	top: -265px;
+}
+.money-block{
+	padding-top: 250px;
+}
+#image-1 {
+	box-shadow: 0px 15px 15px -5px #E71808;
+}
+#image-2 {
+	box-shadow: 0px 15px 15px -5px #5AA002;
+}
+#image-3 {
+	box-shadow: 0px 15px 15px -5px #E16F28;
+}
+#image-4 {
+	box-shadow: 0px 15px 15px -5px #0F3054;
+}
+.img-1,.img-2,.img-3 {
+	height: 230px;
+}
+.tools{
+	margin-bottom: 200px;
+}
+
+
+h1.why-we-title {
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	text-align: center;
+	color: #CF4A11;
+	
+}
+
+.why-me-content-title {
+
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 33px;
+	color: #000000;
+}
+
+.why-we-description {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #555555;
+}
+
+.why-we-btn {
+	width: 317px;
+	height: 63px;
+	background: linear-gradient(207.7deg, #F2B42A 0%, #CF4A11 100%);
+	box-shadow: 0px 6px 15px rgba(242, 180, 42, 0.2);
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+p.why-we-discount {
+	margin-top: 15px;	
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #000000;
+	padding-bottom: 100px;
+}
+
+.button-discount {
+	text-align: center;
+}
+
+p.top-tools-title {
+
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #000000;
+	
+}
+span.for-trade {
+	color:#4482CC;
+}
+
+p.for-trade-title {
+
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	color: #000000;
+}
+p.for-trade-description {
+
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #555555;
+}
+
+a.more {
+
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	text-decoration-line: underline;
+	color: #CF4A11;
+}
+
+.for-trade-image-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	border: 3px solid rgba(255, 114, 0, 0.2);
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0px 15px 15px -5px #FF7200;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.for-trade-image-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	border: 3px solid rgba(77, 102, 130, 0.2);
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0px 15px 15px -5px #4D6682;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.for-trade-image-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	border: 3px solid rgba(51, 169, 224, 0.2);
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow:  0px 15px 15px -5px #33A9E0; 
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+p.money-title {
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #CF4A11;
+	padding-left: 80px;
+}
+
+p.money-description {
+
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 28px;
+	color: #000000;
+}
+span.money-span {
+	font-weight: bold;
+}
+
+
+
+.form-name {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #888888;
+	position: absolute;
+
+}
+
+
+#name {
+	top: 8px;
+	left: -30px;
+}
+#phone {
+	top: 90px;
+	left: -55px;
+}
+#email {
+	top: 170px;
+	left: -40px;
+}
+.money {
+	padding-bottom: 100px;
+}
+p.money-description {
+	
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+}
+p.investments-title {
+
+	
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 63px;
+	color: #CF4A11;
+}
+
+p.investments-discount {
+
+	
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #000000;
+}
+input#submit {
+
+	width: 350px;
+	height: 63px;
+	background: linear-gradient(205.43deg, #F2B42A 0%, #CF4A11 100%);
+	box-shadow: 0px 10px 40px rgba(242, 180, 42, 0.5);
+	border-radius: 5px;
+
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;	
+	color: #FFFFFF;
+}
+input#name {
+	width: 350px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid rgba(207, 74, 17, 0.2);
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 40px;
+
+}
+input#name:focus {
+	border: 1px solid rgba(207, 74, 17, 0.8);
+}
+input#phone {
+	width: 350px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid rgba(207, 74, 17, 0.2);
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+input#phone:focus {
+	border: 1px solid rgba(207, 74, 17, 0.8);
+}
+input#email {
+	width: 350px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid rgba(207, 74, 17, 0.2);
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+input#email:focus {
+	border: 1px solid rgba(207, 74, 17, 0.8);
+}
+p.input-desc {
+	
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #888888;
+	padding-bottom: 40px;
+	padding-left: 100px;
+
+	
+}
+.footer-line {
+	height:2px;
+	background-color: rgba(136, 136, 136, 0.5);
+}
+
+p.footer-description {
+
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	color: #888888;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+form.investments-form {
+	margin-bottom: 60px;
+}
+
+p#control {
+	position: absolute;
+}
+
+.input-name {
+	display: flex;
+
+}
+.money {
+	background: linear-gradient(180deg, rgba(207, 74, 17, 0.2) 0%, rgba(207, 74, 17, 0) 72.4%);
+	top: -50px;
+}
+
+#why-we {
+	background: linear-gradient(180deg, rgba(207, 74, 17, 0.2) 0%, rgba(207, 74, 17, 0) 72.4%);
+}
+/*1024px*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px )
+{
+
+#home {
+	background-size: 129%;
+ }
+h3.forex {
+	font-size: 35px;
+line-height: 50px;
+}
+p.finance {
+	font-size: 16px;
+	line-height: 28px;
+}
+.wave {
+	background-size: 100%;
+	position: relative;
+	top: -117px;
+}
+.wave-particle {
+	top:-150px;
+	left: 755px;
+	width: 167px;
+	height: auto;
+}
+.card-1,.card-2,.card-3,.card-4 {
+	margin-right: 60px;
+}
+.advantages {
+	background: url("../image/background-2.png") no-repeat top;
+	background-size: 170% 100%;
+}
+p.advantages-of-trade-title {
+	padding-top: 160px;
+	font-size: 35px;
+}
+.bg-top {
+	height: auto;
+	width: 1024px;
+}
+
+div.viwe {
+	height:340px;
+}
+.wave {
+	top:-115px;
+}
+a.view-video {
+	padding-top: 25px;
+}
+.Algotrading {
+	margin-top: -100px;
+}
+p.Algotrading-title {
+	margin: 0;
+}
+.view {
+	padding-top: 25px;
+	align-items: center;
+}
+p.description {
+	padding-bottom: 10px;
+}
+.content {
+	padding: 0;
+}
+.advantages-of-trade-title {
+	padding-bottom: 50px;
+}
+
+.desc {
+	padding-bottom: 25px;
+}
+.connect {
+	margin-top: 60px;
+}
+.trade-text {
+	margin-top: 15px;
+}
+p.learn-title {
+	font-size: 42px;
+	line-height: 53px;
+}
+p.learn-desc {
+	font-size: 18px;
+	line-height: 25px;
+}
+.learn-block  {
+ 	margin-bottom: 30px;
+}
+.men {
+	margin-bottom: 30px;
+}
+
+h1.why-we-title {
+	color:#CF4A11;
+	text-align: center;
+}
+
+h1.partners-title {
+	font-size: 42px;
+	line-height: 53px;
+}
+span.partners-span {
+	font-size: 42px;
+	line-height: 53px;
+}
+.partners-title-block {
+	text-align: center;
+}
+p.partners-name {
+	padding-top: 30px;
+}
+p.partners-description {
+	font-size: 13px;
+}
+p.col-title {
+	font-size: 15px;
+	line-height: 25px;
+}
+p.col-content {
+	font-size: 15px;
+	line-height: 25px;
+}
+#image-1,#image-2,#image-3,#image-4 {
+	width: 336px;
+	height:  310px;
+}
+
+.img-1,.img-2,.img-3 {
+	height: 160px;
+}
+img#bg-bottom-img,#bg-top-tools-img {
+	width: 1024px;
+    height: auto;
+}
+
+
+
+.partners-title {
+
+}
+.partners-content {
+	margin-top: -180px;
+	margin-bottom: 100px;
+}
+.tools {
+	margin-bottom: 400px;
+}
+
+.for-trade-image-1 {
+	height: 384px;
+	width: 300px;
+	margin: 0px;
+}
+.for-trade-image-2 {
+	height: 384px;
+	width: 300px;
+	margin: 0px;
+} 
+
+.for-trade-image-3 {
+	height: 384px;
+	width: 300px;
+	margin: 0px;
+}
+
+.for-trade-image-1 img{
+	width: 185px;	
+}
+.for-trade-image-2 img{
+	width: 185px;
+} 
+
+.for-trade-image-3 img{
+	width: 185px;
+}
+
+p.for-trade-title {
+	padding-top: 35px;
+}
+
+p.money-title {
+
+	font-size: 33px;
+	padding: 0;
+}
+
+p.money-description {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+}
+#money {
+	top: -141px;
+}
+p.investments-title {
+	font-size: 39px;
+}
+p#control {
+	position: relative;
+}
+
+}
+
+
+/*768px*/
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+
+.home-content {
+	top: 100px;
+}
+h3.forex {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+p.finance {
+	font-size: 16px;
+	line-height: 22px;
+}
+#home {
+	background-size: 130%;
+}
+ .Algotrading {
+	margin-top: -100px;
+}
+.wave {
+	background-size: 100%;
+	position: relative;
+	top: -207px;
+}
+
+.bg-top {
+	height: auto;
+	width: 768px;
+}
+
+.wave-particle {
+	top: -156px;
+    left: 568px;
+    width: 125px;
+	height: auto;
+}
+#Algotrading {
+	margin-top: -200px;
+}
+.view {
+	margin-top: -50px;
+	margin-left: 0;
+}
+.advantages {
+	background-size: 270% 100%;
+}
+p.advantages-of-trade-title {
+	padding-bottom: 50px;
+}
+p.trade-desc {
+	padding-bottom: 25px;
+}
+.men{
+	display: none;
+}
+p.learn-title {
+	font-size: 43px;
+}
+.learn-block {
+	padding-bottom: 40px;
+}
+
+span.partners-span, h1.partners-title{
+	font-size: 44px;
+}
+.partners-content {
+	margin-top: -200px;
+}
+#image-1,#image-2,#image-3,#image-4 {
+	width: 336px;
+	height: 240px;
+}
+p.partners-name {
+	padding-top: 30px;
+}
+h1.why-we-title {
+	font-size: 42px;
+}
+p#control {
+	position: relative;
+}
+p.top-tools-title {
+	font-size: 38px;
+}
+.why-we-content {
+	padding-bottom: 30px;
+}
+p.for-trade-description
+{
+	font-size: 15px;
+}
+a.more {
+	font-size: 15px;
+}
+p.for-trade-title {
+	margin-top: 20px;
+}
+.money-img {
+	display: none;
+}
+h1.why-we-title {
+	color:#CF4A11;
+	text-align: center;
+}
+p.money-title {
+	margin-top: -100px;
+	padding: 0;
+}
+p.money-description {
+	padding-bottom: 50px;
+}
+p.investments-title {
+	font-size: 42px;
+	line-height: 53px;
+}
+#name {
+	top: 8px;
+	left: 120px;
+}
+#phone {
+	top: 90px;
+	left: 90px;
+}
+#email {
+	top: 170px;
+	left: 105px;
+}
+#money {
+	top: -106px;
+}
+#bg-bottom-img .bg-top-tools-img{
+	width: 768px;
+	height: auto;
+}
+img#bg-bottom-img,#bg-top-tools-img  {
+	width: 768px;
+	height: auto;
+}
+
+} 
+
+
+/*360px*/
+
+@media screen and (max-width: 576px)
+{
+#home {
+	background: url("../image/main-background.png") no-repeat bottom;
+	background-size: 320%;
+	background-position: 73% -114%;
+ }
+ .home-content {
+ 	top: 60px;
+ }
+h3.forex {
+	font-size: 18px;
+	line-height: 28px;
+}
+p.finance{
+	font-size: 14px;
+	line-height: 19px;
+}
+p.discount-servise {
+	padding: 0;
+}
+button.about-us {
+	width: 320px;
+	height: 51px;
+	position: relative;
+	left: -25px;
+}
+.discount-block {
+	background-color: #fff;
+	position: relative;
+	left: -25px;
+}
+p.discount-servise {
+	margin-bottom: 350px;
+}
+.wave {
+	background-size: 166% 100%;
+	height: 100px;
+}
+p.Algotrading-title {
+	font-size: 30px;
+	line-height: 45px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+a.view-video {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 10px;
+
+}
+.view {
+	padding: 0;
+	margin: 0;
+}
+p.description {
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+.wave-particle {
+	top: -289px;
+	left: 298px;
+	width: 76px;
+}
+
+.card-1,.card-2,.card-3,.card-4 {
+	text-align: center;
+}
+p.col-content {
+	margin-bottom: 50px;
+}
+
+p.advantages-of-trade-title {
+	font-size: 31px;
+	line-height: 41px;
+	padding-top: 150px;
+}
+.content {
+	padding: 0;
+}
+button.connect {
+	border: none;
+	width: 320px;
+	height: 51px;
+	position: relative;
+	left: -30px;
+}
+p.trade-text {
+	font-size: 13px;
+}
+#advantages {
+	background-size: 477% 109%;
+}
+.men {
+	display: none;
+}
+p.learn-title {
+	font-size: 30px;
+	line-height: 40px;
+}
+p.learn-desc {
+	font-size: 16px;
+	line-height: 22px;
+}
+p.learn-name {
+	font-size: 20px;
+	line-height: 26px;
+}
+a.learn-link {
+	font-size: 16px;
+	line-height: 22px;
+}
+h1.partners-title {
+	font-size:40px;
+	margin-top: -180px;
+}
+span.partners-span {
+	font-size: 37px;
+}
+h1.why-we-title {
+	font-size: 33px;
+	line-height: 45px;
+}
+p.why-we-description {
+	font-size: 15px;
+	line-height: 25px;
+}
+p#control {
+	position: relative;
+}
+h1.why-we-title {
+	color:#CF4A11;
+	text-align: center;
+}
+button.why-we-btn {
+	width: 300px;
+}
+p.top-tools-title {
+	font-size: 34px;
+	line-height: 48px;
+}
+
+.img-1,.img-2,.img-3 {
+	height: auto;
+	width: auto;
+}
+.tools {
+	margin-bottom: 0px;
+}
+#img-fxpro,#img-etoro,#img-fxopen,#img-pc {
+	width: 320px;
+	height: 228px;
+}
+
+#img-calgo,#img-zulutrade,#img-vps 
+{
+	width: 320px;
+	height: 166px;
+}
+p.partners-name {
+	margin-top: 10px;
+}
+p.money-title {
+	margin-top: 100px;
+	font-size: 31px;
+	line-height: 54px;
+	padding: 0;
+}
+.money-img {
+	display: none;
+}
+p.money-description {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+
+
+}
+.bg-bottom-tools{
+	position: relative;
+	z-index: 1;
+}
+#main-logo {
+	width: 290px;
+	height: 70px;
+}
+
+p.investments-title {
+	margin-top: 53px;
+	font-size: 36px;
+	line-height: 45px;
+}
+.investments-discount-block {
+	margin-bottom: 50px;
+}
+#investments {
+	top:-235px;
+}
+#name {
+	top: -25px;
+	left: 32px;
+}
+#phone {
+	top: 56px;
+	left: 31px;
+}
+#email {
+	top: 136px;
+	left: 34px;
+}
+#bg-bottom-img .bg-top-tools-img{
+	width: 360px;
+	height: auto;
+}
+img#bg-bottom-img,#bg-top-tools-img  {
+	width: 360px;
+	height: auto;
+}
+
+}
+/*--------------------Custom css's------------------*/
+#modal_container{
+	position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1001;
+    display: none;
+}
