@@ -38,7 +38,7 @@ body #buy_button {
 body #form_container {
   background: linear-gradient(to top right, #0006ff, #fff);
   padding: 20px;
-  z-index: 1024;
+  z-index: 1025;
   border-radius: 20px;
   box-shadow: -20px 20px 18px 2px #080707;
   text-align: center;
