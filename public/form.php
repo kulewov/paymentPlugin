@@ -19,7 +19,7 @@
     </g>
 </svg>
 <input type="radio" name="response" id="stripe_radio" value="stripe" >
-<svg id="stripe_svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" viewBox="0 13 46.943 20" style="enable-background:new 0 0 46.943 46.943;" xml:space="preserve" >
+<svg id="stripe_svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" viewBox="0 13 46.943 20" style="enable-background:new 0 0 46.943 46.943;" xml:space="preserve" >
 	<g>
     	<g>
         	<path d="M22.694,18.917c0,3.466,0,6.914,0,10.399c1.241,0,2.459,0,3.692,0c0-3.473,0-6.932,0-10.399

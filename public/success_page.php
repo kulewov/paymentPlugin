@@ -5,6 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<div><?php var_dump($_POST) ?></div>
+	<div><!-- This is your code section--></div>
 </body>
 </html>
